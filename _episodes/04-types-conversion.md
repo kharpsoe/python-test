@@ -146,7 +146,7 @@ TypeError: object of type 'int' has no len()
 *   Cannot add numbers and strings.
 
 ~~~
-print(1 + 'A')
+print(1 + '2')
 ~~~
 {: .python}
 ~~~
@@ -294,8 +294,8 @@ first is 2 and second is 5
 > {: .python}
 >
 > ~~~
-> 5 // 3: 1
 > 5 / 3: 1.6666666666666667
+> > 5 // 3: 1
 > 5 % 3: 2
 > ~~~
 > {: .output}
