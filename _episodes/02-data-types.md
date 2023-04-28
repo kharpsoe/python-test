@@ -47,22 +47,22 @@ Because these are two different “types” of Python data. We will look closer 
 </thead>
 <tbody>
 <tr class="row-even">
-<td><p>String</p></td>
+<td><p>String (str)</p></td>
 <td><p>Text</p></td>
-<td><p>'Anything goes 4 strings!'</p></td>
+<td><p>'Anything in quotes goes 4 strings!'</p></td>
 </tr>
 <tr class="row-odd">
-<td><p>Integer</p></td>
+<td><p>Integer (int)</p></td>
 <td><p>Whole Numbers</p></td>
 <td><p>42</p></td>
 </tr>
 <tr class="row-even">
-<td><p>Float</p></td>
+<td><p>Float (float)</p></td>
 <td><p>Decimal Numbers</p></td>
 <td><p>3.1415926</p></td>
 </tr>
 <tr class="row-odd">
-<td><p>Boolean</p></td>
+<td><p>Boolean (bool)</p></td>
 <td><p>True/False</p></td>
 <td><p>False</p></td>
 </tr>
@@ -123,7 +123,7 @@ If you need to include a single or double quotation mark _inside_ of a string, t
 A backslash character `\` tells Python to treat the next character like a normal character and to ignore any special meaning
 
 ~~~
-"She exclaimed, 'This is a quotation inside a string!''"
+"She exclaimed, 'This is a quotation inside a string!'"
 ~~~
 {: .python}
 
@@ -353,7 +353,7 @@ You can do a large range of mathematical calculations and operations with intege
 
 ## Booleans
 
-Booleans are “truth” values. They report on whether things in your Python universe are `True` or `False`. There are the only two options for a boolean: `True` or `False`.
+Booleans are “truth” values. They report on whether things in your Python universe are `True` or `False`. There are only two options for a boolean: `True` or `False`.
 
 ~~~
 13 < 17
